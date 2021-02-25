@@ -1,4 +1,4 @@
-        var checkbox = document.querySelector('input[name=theme]');
+        var checkbox = document.querySelector('input[name=theme]'); // By jquery library
 
         checkbox.addEventListener('change', function() {
             if(this.checked) {
